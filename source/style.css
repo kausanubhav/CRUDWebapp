@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+.d-flex input{
+    margin: 0.9em 0em;
+}
+
+.d-flex button{
+    margin:1.5em .6em;
+    padding:.3em 2.4em;
+}
+
+.container table{
+    margin:1em 10em;
+}
+/* edit button in the table */
+.btnedit{
+    color:lightgreen;
+    cursor: pointer;
+}
+.btndelete {
+    color: tomato;
+    cursor: pointer;
+}
+#notfound{
+    color:rgb(251, 37, 37)
+}
+/* messages */
+.insertMsg,
+.deleteMsg,
+.updateMsg{
+    position:absolute;
+    top:-40px;
+
+}
+.movedown{
+    animation: slideUp 3.4s ease;
+}
+@keyframes slideUp {
+    50%{
+        top:0;
+    }
+    100%{
+        top:-40px;
+    }
+}
+
+
